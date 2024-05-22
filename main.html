@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaLab AAI</title>
+    <link rel="stylesheet" href="styles_main.css">
+</head>
+<body>
+    <header>
+        <a href="main.html">
+            <img src="/images/icon.png" alt="Extension Icon">
+        </a>
+        <div class="header-centered">
+            <h1>MediaLab AAI</h1>
+        </div>
+        <div class="tabs-centered">
+            <nav class="tabs">
+                <ul>
+                    <li><a href="main.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<div class="body-container">
+    <div class="left-container-wrapper">
+            <button class="download-button" onclick="downloadExtension()">Download for Chrome</button>
+                <script>
+                    function downloadExtension() {
+                    // Put download logic here
+                    alert("Download in progress...");
+                    }
+                </script>
+            <div class="container">
+                <h2>About the Extension:</h2>
+                <p>This is a browser extension, that is able to analyze text in web pages
+                    using a LLM to detect hate speech. It also provides the user with counter speech
+                    suggestions that they can choose from in order to respond.</p>
+            </div>
+    </div>
+    <div class="right-container-wrapper">
+        <img src="/images/extension.png" alt="Pic of the Extension">
+    </div>
+</div>
+
+<div class="features-container">
+    <h2>Features:</h2>
+    <p>Identifying Hate Speech</p>
+    <p>Generating Counter Speech</p>
+</div>
+
+<div class="tutorial-container">
+    <h2>Tutorial:</h2>
+    <p><img src="/images/1.jpg" alt="1st step"></p>
+    <p><img src="/images/2.jpg" alt="2nd step"></p>
+    <p><img src="/images/3.jpg" alt="3rd step"></p>
+    <p><img src="/images/4.jpg" alt="4th step"></p>
+    <p><img src="/images/5.jpg" alt="5th step"></p>
+    <p><img src="/images/6.jpg" alt="6th step"></p>
+</div>
+
+<footer>
+    <p>&copy; 2024 MediaLab Webpage</p>
+</footer>
+
+</body>
+</html>
